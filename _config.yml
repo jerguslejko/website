@@ -15,7 +15,6 @@ github_username:    jerguslejko
 baseurl:            ""
 permalink:          /posts/:title
 timezone:           Europe/London
-mathjax:            false
 
 # Site Build
 highlighter:        rouge
