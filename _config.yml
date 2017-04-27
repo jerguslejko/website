@@ -13,7 +13,7 @@ github_username:    jerguslejko
 
 # Site Settings
 baseurl:            ""
-permalink:          /posts/:title
+permalink:          /post/:title
 timezone:           Europe/London
 
 # Site Build
