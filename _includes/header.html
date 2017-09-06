@@ -1,36 +1,30 @@
-<aside class="logo">
+<aside class="logo flex flex-center">
 
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = 'https://about.jerguslejko.com' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
+    <div class="text-right mr-1">
+        <a href="#" class="photo">
+            <img src="https://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
+        </a>
+    </div>
+    <div class="ml-1">
+        <h1 class="mb-1">Jerguš Lejko</h1>
 
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="https://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
+        <ul class="flex flex-wrap">
+            <li{% if page.url != '/about' %} class="active"{% endif %}>
+                <a href="/">Blog</a>
+            </li>
+            <li{% if page.url == '/about' %} class="active"{% endif %}>
+                <a href="/about">About me</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener" href="https://twitter.com/jerguslejko">Twitter</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/jerguslejko">Github</a>
+            </li>
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jergu%C5%A1-lejko-99222379">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
 
 </aside>
-
-<nav>
-    <ul>
-        <li>
-            <a href="/">Blog</a>
-        </li>
-        <li>
-            <a href="/about">About me</a>
-        </li>
-        <li>
-            <a target="_blank" rel="noopener" href="https://twitter.com/jerguslejko">Twitter</a>
-        </li>
-        <li>
-            <a target="_blank" rel="noopener" href="https://github.com/jerguslejko">Github</a>
-        </li>
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/jergu%C5%A1-lejko-99222379">LinkedIn</a>
-        </li>
-    </ul>
-</nav>
