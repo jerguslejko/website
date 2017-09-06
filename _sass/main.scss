@@ -158,7 +158,7 @@ iframe {
   width: 100%;
 }
 article {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   .title {
     line-height: 1.4em;
@@ -183,8 +183,10 @@ article {
   }
   p {
     font-size: 15px;
-    line-height: 1.9em;
+    line-height: 2em;
     word-wrap: break-word;
+    margin: 2em 0;
+    text-align: justify;
   }
   .footnote {
     border: 0;
@@ -238,7 +240,7 @@ article {
 .page-navigation,
 .footer {
   text-align: center;
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
   font-size: 0.8rem;
 }
@@ -262,7 +264,7 @@ article {
   }
 }
 section {
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto 50px auto;
   ul {
     list-style: none;
