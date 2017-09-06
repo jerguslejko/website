@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="Timeline">
+    <ul>
+        {% for event in site.data.achievements %}
+            <li id="{{ event.slug }}">
+                <div class="date">{{ event.date }}</div>
+                <div class="icon">{{ event.icon }}</div>
+                <div class="event">
+                    <a href="#{{ event.slug }}">
+                        <strong>{{ event.event }}</strong>
+                    </a>
+
+                    {% if event.description %}
+                        <p>{{ event.description }}</p>
+                    {% endif %}
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

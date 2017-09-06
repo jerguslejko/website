@@ -1,0 +1,83 @@
+.Timeline
+    position: relative
+    margin: 0 auto
+    width: 60%
+
+    *
+        margin: 0
+        padding: 0
+        border: 0
+
+        &, &:before, &:after
+            box-sizing: border-box
+
+    a
+        text-decoration: none
+
+    ul
+        list-style: none
+
+    @media screen and (max-width: 1200px)
+        width: 80%
+
+    @media screen and (max-width: 800px)
+        width: auto
+
+    &::after
+        content: ''
+        position: absolute
+        width: 1px
+        height: 100%
+        top: 0
+        left: 50%
+        background: #e3e3e3
+        z-index: 0
+
+    ul
+        position: relative
+        z-index: 1
+
+        li
+            display: flex
+            margin-bottom: 30px
+
+            &:last-child
+                .icon
+                    height: auto
+
+            &:nth-child(2n)
+                flex-direction: row-reverse
+
+                .event
+                    text-align: right
+
+            &:nth-child(2n + 1)
+                flex-direction: row
+
+                .date
+                    text-align: right
+
+            .icon
+                display: flex
+                align-items: center
+                width: 2%
+                padding: 13px 0
+                height: 58px
+                background: #fff
+
+            .date
+                font-weight: 300
+                padding: 15px 25px
+                width: 49%
+
+            .event
+                padding: 15px 25px
+                width: 49%
+
+                strong
+                    font-weight: 700
+
+                p
+                    font-size: 14px
+                    margin-top: 10px
+                    line-height: 25px
