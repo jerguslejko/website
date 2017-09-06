@@ -164,14 +164,6 @@ article {
     line-height: 1.4em;
     text-align: center;
   }
-  .divider {
-    background: #ddd;
-    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
-    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
-    height: 1px;
-    margin: 2em 0;
-  }
   .center {
     text-align: center;
     margin: 0 auto;
@@ -188,74 +180,19 @@ article {
     margin: 2em 0;
     text-align: justify;
   }
-  .footnote {
-    border: 0;
-    background-color: #0087BE;
-    color: #fff;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  .footnotes {
-    margin: 50px auto;
-    display: block;
-    p {
-      line-height: 1rem;
-      font-weight: normal;
-    }
-    ol {
-      margin: 0;
-      padding-left: 15px;
-      li {
-        font-weight: bold;
-      }
-    }
-    .reversefootnote {
-      border: 0;
-      color: #0087BE;
-    }
-  }
   a:hover {
     color: #369;
     border-color: #369;
   }
 }
-.back {
-  text-align: center;
-  a {
-    text-decoration: none;
-    margin: 40px auto 0;
-    display: inline-block;
-    padding: 10px;
-    border: 0;
-    &:before {
-      content: "<<";
-      margin-right: 5px;
-      color: #000;
-    }
-  }
-}
 .block {
   display: block;
 }
-.page-navigation,
 .footer {
   text-align: center;
   max-width: 700px;
   margin: 0 auto;
   font-size: 0.8rem;
-}
-.page-navigation {
-  margin: 50px auto 0 auto;
-  a {
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: none;
-  }
-  span {
-    display: inline-block;
-  }
-}
-.footer {
   margin-top: 50px;
   color: #777;
   a {
@@ -274,9 +211,6 @@ section {
       margin: 25px 0;
       .title {
         max-width: 100%;
-        //overflow: hidden !important;
-        //text-overflow: ellipsis !important;
-        //white-space: nowrap !important;
         word-wrap: normal !important;
       }
       a {

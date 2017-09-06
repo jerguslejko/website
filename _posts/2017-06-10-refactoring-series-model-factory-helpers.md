@@ -89,6 +89,4 @@ $factory->define(App\Order::class, function (Faker\Generator $faker) {
 });
 ```
 
----
-
 **Outcome?** Super small change. Super nice result.

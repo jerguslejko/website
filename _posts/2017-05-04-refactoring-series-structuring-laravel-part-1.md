@@ -6,11 +6,7 @@ Every time I start a new Laravel project, I take a little time to decide on how 
 
 ## Everything lives in the App namespace
 
-The first approach I have taken was simply to put all files into the `App` namespace.
-
-I placed everything next to the `Providers` and `Console` folders. If I needed a place for _Jobs_ or _Presenters_, I simply created a new folder right in the `App` namespace.
-
-While this is **PERFECTLY FINE**, it might get a little messy as the project grows.
+The first approach I have taken was simply to put all files into the `App` namespace. I placed everything next to the `Providers` and `Console` folders. If I needed a place for _Jobs_ or _Presenters_, I simply created a new folder right in the `App` namespace. While this is **PERFECTLY FINE**, it might get a little messy as the project grows.
 
 **Please note, I still use THIS kind of structure in most of my apps.**
 
@@ -107,9 +103,3 @@ app
 ```
 
 Easy right? Well, moving the `App\Console\Kernel`, `App\Http\Kernel` or `App\Exceptions\Handler` classes is not as seamless as moving the domain code. Therefore, I'll dedicate my next post to a tutorial on how to push the "necessary" code into `App\Support` namespace.
-
-<div class="divider"></div>
-
-<div style="text-align: center">
-    May the Fourth Be With You!
-</div>

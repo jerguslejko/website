@@ -2,13 +2,9 @@
 title: "Refactoring series: Structuring Laravel - Part 2"
 ---
 
-Hey! The second part of this article is a step-by-step tutorial on how to organize your Laravel app and make use of `App\Support` namespace. [Previous post that talks about advantages of this approach is available here]({{ site.baseurl }}{% post_url 2017-05-04-refactoring-series-structuring-laravel-part-1 %}#support-the-support-namespace). I want to emphasize that I **do not** use this approach in every app. I reach for it, when the out-of-box structuring feels bloated.
-
----
+Hey! The second part of this article is a step-by-step tutorial on how to organize your Laravel app and make use of `App\Support` namespace. [Previous post]({{ site.baseurl }}{% post_url 2017-05-04-refactoring-series-structuring-laravel-part-1 %}#support-the-support-namespace) talks about advantages of this approach is available here. I want to emphasize that I **do not** use this approach in every app. I reach for it, when the out-of-box structuring feels bloated.
 
 All framework-related classes in the `app` folder have to be registered in the framework. Controllers are registered in the routes file, middlewares are registered in `App\Http\Kernel`, console commands are in `App\Console\Kernel` and providers are registered in the `config/app.php` file. This post covers how to move individual files and update the reference.
-
----
 
 OK, when you install a new Laravel project, the `app` folder looks like this:
 ```
