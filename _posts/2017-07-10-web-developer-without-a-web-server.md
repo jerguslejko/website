@@ -2,9 +2,7 @@
 title: "Web Developer without a Web server"
 ---
 
-Recently, I have **FALLEN IN LOVE** with [Jekyll](https://jekyllrb.com/). Yeah, I know that I'm late to the party.
-
-I really like the idea of Static Site Generators. So, of course, I have converted all my personal sites to a Jekyll site. This blog, the main site, and my resumé. I just love the simplicity. Work locally, deploy simple plain HTML files. ❤️.
+Recently, I have **FALLEN IN LOVE** with [Jekyll](https://jekyllrb.com/). Yeah, I know that I'm late to the party. I really like the idea of Static Site Generators. So, of course, I have converted all my personal sites to a Jekyll site. ❤️
 
 For the past few months (a year of two), I had a [DigitalOcean](https://digitalocean.com) droplet powering all my websites. It worked great, I learned a lot about Linux, Nginx, DNS, etc. Anyway, it felt kind of heavy to setup Debian or Ubuntu, configure Nginx, setup PHP, firewall, ssh, fail2ban just for the purpose of having three simple _static_ (Jekyll powered) sites.
 

@@ -2,9 +2,7 @@
 title: "Refactoring series: Model Factory Helpers"
 ---
 
-**Hot off the press.** I committed this 20 minutes ago.
-
-I was working on an application that has around ~20 models. It makes a huge use of [Model Factories](https://laravel.com/docs/5.4/database-testing#writing-factories) since they are **so** amazing!
+**Hot off the press.** I was working on an application that has around ~20 models. It makes a huge use of [Model Factories](https://laravel.com/docs/5.4/database-testing#writing-factories) since they are **so** amazing!
 
 For example, `OrdersFactory` looks like this _(simplified)_:
 

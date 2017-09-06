@@ -2,7 +2,7 @@
 title: "Refactoring series: Checkboxes & Timestamps"
 ---
 
-In a project I'm currently working on, I was tasked to add a new `is_archived` flag to the `Order` model. The project uses Angular and Laravel. Easy thing to do, just add a boolean column and a single checkbox.
+In a project I'm currently working on, I was tasked to add a new `is_archived` flag to the `Order` model. The project uses Angular and Laravel. Easy thing to do, just add a boolean column and a single checkbox. Or maybe there is more to it?
 
 The thing is, sometimes I like to use timestamps instead of simple boolean fields. It allows me to store additional information about when the order was archived. The implementation is pretty simple. If the timestamp is `NULL`, the order is not archived. If it does have a value, it is archived.
 
@@ -23,10 +23,10 @@ public function update(Request $request)
 
     if ($request->is_archived && ! $order->archived_at) {
         $order->archived_at = Carbon::now();
-    }		
+    }
 
-    if (! $request->is_archived && $order->archived_at) {		
-        $order->archived_at = null;		
+    if (! $request->is_archived && $order->archived_at) {
+        $order->archived_at = null;
     }
 
     // ...
