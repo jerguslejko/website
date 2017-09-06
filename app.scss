@@ -5,16 +5,37 @@
 @import 'main';
 @import 'syntax';
 @import 'timeline';
-@import 'nav';
 
-.mr-1 { margin-right: 10px }
-.ml-1 { margin-left: 10px }
+.block { display: block }
 
 .text-center { text-align: center }
 .text-right  { text-align: right }
 .text-left   { text-align: left }
 
+.text-bold { font-weight: bold }
+
 .flex { display: flex }
 .flex-1 { flex: 1 }
 .flex-center { justify-content: center; align-items: center }
 .flex-wrap { flex-wrap: wrap }
+
+.rounded { border-radius: 50% }
+
+/**
+ * Spacing
+ */
+
+$spacing: 10px;
+
+.mt-3 { margin-top: 3 * $spacing }
+
+.mb-8 { margin-bottom: 8 * $spacing }
+.mb-2 { margin-bottom: 2 * $spacing }
+
+.ml-1 { margin-left: 1 * $spacing }
+
+.mr-1 { margin-right: 1 * $spacing }
+.mr-2 { margin-right: 2 * $spacing }
+
+.w-8 { width: 8 * $spacing }
+.h-8 { height: 8 * $spacing }
