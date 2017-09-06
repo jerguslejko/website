@@ -21,8 +21,10 @@ layout: default
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<a href="{{ post.url | prepend: site.baseurl }}" style="font-size: 15px; font-weight: bold">{{ post.title }}</a>
 				</div>
+
+				<div style="padding: 15px 30px; color: #666">{{ post.excerpt }}</div>
 			</li>
 		</ul>
 
