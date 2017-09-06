@@ -1,5 +1,12 @@
 [
     {
+        "date": "September 2017",
+        "icon": "🎓",
+        "event": "University of Bristol",
+        "slug": "bristol-2017",
+        "description": "I am really happy that I get to be part of the University of Bristol. I will be doing Computer Science course."
+    },
+    {
         "date": "May 2017",
         "icon": "💻",
         "event": "tmforum | {open}:hack Nice",
