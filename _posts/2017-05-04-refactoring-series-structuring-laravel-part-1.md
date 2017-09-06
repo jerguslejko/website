@@ -1,5 +1,6 @@
 ---
 title: "Refactoring series: Structuring Laravel - Part 1"
+layout: post
 ---
 
 Every time I start a new Laravel project, I take a little time to decide on how I want to structure it. Since Laravel allows me to organize the folders however I want, I have come up with a couple different approaches to tackle this.

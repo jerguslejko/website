@@ -1,5 +1,6 @@
 ---
 title: "Refactoring series: Checkboxes & Timestamps"
+layout: post
 ---
 
 In a project I'm currently working on, I was tasked to add a new `is_archived` flag to the `Order` model. The project uses Angular and Laravel. Easy thing to do, just add a boolean column and a single checkbox. Or maybe there is more to it?

@@ -1,5 +1,6 @@
 ---
 title: "Refactoring series: Confusing controllers"
+layout: post
 ---
 
 **Introduction to the series:** Posts marked with _Refactoring series_ talk about past refactorings I have performed on my projects. I'll try to go through the decisions I made and explain why I think they were the best at the moment. These posts will probably be short and very focused.

@@ -1,5 +1,6 @@
 ---
 title: "Web Developer without a Web server"
+layout: post
 ---
 
 Recently, I have **FALLEN IN LOVE** with [Jekyll](https://jekyllrb.com/). Yeah, I know that I'm late to the party. I really like the idea of Static Site Generators. So, of course, I have converted all my personal sites to a Jekyll site. ❤️

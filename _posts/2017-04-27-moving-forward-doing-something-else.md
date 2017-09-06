@@ -1,5 +1,6 @@
 ---
 title: Moving forward. Doing something else.
+layout: post
 ---
 
 Hey there!
