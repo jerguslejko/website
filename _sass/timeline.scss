@@ -1,6 +1,27 @@
 .Timeline {
     position: relative;
 
+    @media screen and (max-width: 680px) {
+        .date { display: none }
+
+        &::after {
+            left: 10px !important;
+        }
+
+        ul {
+            li {
+                flex-direction: row !important;
+
+                .icon { padding: 0 !important }
+
+                .event {
+                    width: calc(100% - 30px) !important;
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+
     &::after {
         content: "";
         position: absolute;
