@@ -44,6 +44,7 @@
 $spacing: 10px;
 
 .mt-1 { margin-top: 1 * $spacing }
+.mt-2 { margin-top: 2 * $spacing }
 .mt-3 { margin-top: 3 * $spacing }
 
 .mb-8 { margin-bottom: 8 * $spacing }
@@ -61,3 +62,13 @@ $spacing: 10px;
 .h-8 { height: 8 * $spacing }
 
 .p-2 { padding: 2 * $spacing }
+
+@media screen and (min-width: 680px) {
+    .sm-hide { display: block }
+    .sm-show { display: none }
+}
+
+@media screen and (max-width: 680px) {
+    .sm-hide { display: none }
+    .sm-show { display: block }
+}
