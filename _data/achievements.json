@@ -4,7 +4,7 @@
         "icon": "🎓",
         "event": "University of Bristol",
         "slug": "bristol-2017",
-        "description": "I am really happy that I get to be part of the University of Bristol. I will be doing Computer Science course."
+        "description": "I am doing Computer Science course at University of Bristol. I am proud to be a part of this prestigious community."
     },
     {
         "date": "May 2017",
@@ -74,7 +74,7 @@
         "icon": "👔",
         "event": "KBS Development",
         "slug": "kbs-development-2015",
-        "description": "Lead Software Developer. Working in Laravel (😍), AngularJS and VueJS. I also performed server provisioning, deployments and other devops related tasks. In total, I have worked on 5 major projects within teams of 3-4 people."
+        "description": "Lead Software Developer. Working in Laravel, AngularJS and VueJS. I also performed server provisioning, deployments and other devops related tasks. In total, I have worked on 5 major projects within teams of 3-4 people."
     },
     {
         "date": "February 2015",

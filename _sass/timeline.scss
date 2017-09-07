@@ -1,7 +1,5 @@
 .Timeline {
     position: relative;
-    margin: 0 auto;
-    max-width: 700px;
 
     &::after {
         content: "";
@@ -21,10 +19,6 @@
         li {
             display: flex;
 
-            &:last-child .icon {
-                height: auto;
-            }
-
             &:nth-child(2n) {
                 flex-direction: row-reverse;
 
@@ -43,24 +37,14 @@
             .icon {
                 display: flex;
                 align-items: center;
-                width: 2%;
+                padding-left: 5px; // use this instead of justify-content, because I DON'T FUCKING KNOW
+                width: 30px;
                 height: 60px;
                 background: #fff;
             }
 
-            .date {
-                padding: 20px;
-                width: 49%;
-            }
-
-            .event {
-                padding: 20px;
-                width: 49%;
-
-                p {
-                    margin-top: 10px;
-                    line-height: 1.6em;
-                }
+            .date, .event {
+                width: calc(50% - 15px);
             }
         }
     }

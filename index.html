@@ -6,15 +6,13 @@ layout: default
 	<ul>
 		{% for post in site.posts %}
 			<li class="mb-5">
-				<div class="post-date">
-					<span>{{ post.date | date: "%b %d '%y" }}</span>
+				<div class="flex flex-between mb-1">
+					<a href="{{ post.url | prepend: site.baseurl }}" class="text-bold">{{ post.title }}</a>
+
+					<div class="flex-no-shrink ml-2 text-upper text-soft">{{ post.date | date: "%b %d '%y" }}</div>
 				</div>
 
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}" style="font-size: 15px" class="text-bold">{{ post.title }}</a>
-				</div>
-
-				<div style="padding: 10px 30px 0 30px; color: #666">{{ post.excerpt }}</div>
+				<div class="text-soft text-md text-line-md text-indent">{{ post.excerpt }}</div>
 			</li>
 		{% endfor %}
 	</ul>
