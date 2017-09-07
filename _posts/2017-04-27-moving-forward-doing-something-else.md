@@ -5,7 +5,7 @@ layout: post
 
 Hey there!
 
-My name is **Jerguš**. I'm a Slovak student doing Software Engineering course at a university in England. I present myself as a **"php developer"** or a **"laravel developer"**. However, in case you want to make fun of me for _loving_ PHP, I can simply be a **"developer"**.
+My name is **Jerguš**. I'm a student doing Computer Science course at **University of Bristol**. I present myself as a **"php developer"** or a **"laravel developer"**. However, in case you want to make fun of me for _loving_ PHP, I can simply be a **"developer"**.
 
 ## I want to blog. Why?
 
@@ -13,7 +13,7 @@ My name is **Jerguš**. I'm a Slovak student doing Software Engineering course a
 It no longer was something I'd enjoy. Interesting problems and new challenges turned into old, boring, repetitive tasks of _"moving the button to the right. Just a little bit"_.
 
 ### My friends stayed at home.
-When I was in high school, I could talk to my friends about dev stuff every day,     but after moving to England, we do not communicate as much. ~~Let's say that my UK classmates are not into coding as much as I am~~. Therefore I have **YOU**, my (new) dearest friends. I'll tell you what I learned, how I liked it and why I'll never use it again.
+When I was in high school, I could talk to my friends about dev stuff every day, but after moving to England, we do not communicate as much. Therefore I have **YOU**, my (new) dearest friends. I'll tell you what I learned, how I liked it and why I'll never use it again.
 
 ### Someone might find it useful.
 I love to share. I love to teach. I love to learn.
