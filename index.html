@@ -9,7 +9,7 @@ layout: default
 				<div class="flex flex-between mb-1">
 					<a href="{{ post.url | prepend: site.baseurl }}" class="text-bold">{{ post.title }}</a>
 
-					<div class="flex-no-shrink ml-2 text-upper text-soft">{{ post.date | date: "%b %d '%y" }}</div>
+					<div class="flex-no-shrink ml-2 text-soft">{{ post.date | date: "%B %-d '%y" }}</div>
 				</div>
 
 				<div class="text-soft text-md text-line-md text-indent">{{ post.excerpt }}</div>
