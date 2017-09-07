@@ -71,4 +71,6 @@ $spacing: 10px;
 @media screen and (max-width: 680px) {
     .sm-hide { display: none }
     .sm-show { display: block }
+
+    .sm-text-justify { text-align: justify }
 }
