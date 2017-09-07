@@ -30,7 +30,9 @@ $spacing: 10px;
 .mt-3 { margin-top: 3 * $spacing }
 
 .mb-8 { margin-bottom: 8 * $spacing }
+.mb-5 { margin-bottom: 5 * $spacing }
 .mb-2 { margin-bottom: 2 * $spacing }
+.mb-1 { margin-bottom: 1 * $spacing }
 
 .ml-1 { margin-left: 1 * $spacing }
 
@@ -39,3 +41,6 @@ $spacing: 10px;
 
 .w-8 { width: 8 * $spacing }
 .h-8 { height: 8 * $spacing }
+
+.pv-1 { padding-top: 1 * $spacing; padding-bottom: 1 * $spacing }
+.ph-3 { padding-left: 3 * $spacing; padding-right: 3 * $spacing }

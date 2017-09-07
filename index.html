@@ -2,19 +2,19 @@
 layout: default
 ---
 
-<section>
+<section class="container">
 	<ul>
 		{% for post in site.posts %}
-			<li>
+			<li class="mb-5">
 				<div class="post-date">
 					<span>{{ post.date | date: "%b %d '%y" }}</span>
 				</div>
 
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl }}" style="font-size: 15px; font-weight: bold">{{ post.title }}</a>
+					<a href="{{ post.url | prepend: site.baseurl }}" style="font-size: 15px" class="text-bold">{{ post.title }}</a>
 				</div>
 
-				<div style="padding: 10px 30px; color: #666">{{ post.excerpt }}</div>
+				<div style="padding: 10px 30px 0 30px; color: #666">{{ post.excerpt }}</div>
 			</li>
 		{% endfor %}
 	</ul>
