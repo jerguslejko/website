@@ -3,9 +3,7 @@ title: "PERSONAL: UOB, here I come."
 layout: post
 ---
 
-**THIS IS NOT A TECHNICAL BLOG POST**
-
-Summer is over, I'm heading to a new university and I'm back to blogging! I hope you didn't miss me too much, and if you did, I promise to write more often now, so you should be okay.
+**THIS IS NOT A TECHNICAL BLOG POST.** Summer is over, I'm heading to a new university and I'm back to blogging! I hope you didn't miss me too much, and if you did, I promise to write more often now, so you should be okay.
 
 ### University of Bristol
 
