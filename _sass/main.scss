@@ -48,8 +48,7 @@ article {
     }
 
     a {
-        font-style: italic;
-
-        &:hover { text-decoration: underline }
+        color: #55C2DA;
+        text-decoration: underline;
     }
 }
