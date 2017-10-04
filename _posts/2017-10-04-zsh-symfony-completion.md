@@ -5,7 +5,7 @@ layout: post
 
 I am presenting you with my own Oh My Zsh plugin that brings command line autocompletion to your favorite tools such as `laravel/artisan`, `laravel/valet`, `composer` or ANY other command line tool built on `symfony/console`!
 
-Follow [the instructions](https://github.com/jerguslejko/zsh-symfony-completion#oh-my-zsh-symfony-console-completion) on Github and bring life to your command line!
+Follow [the instructions](https://github.com/jerguslejko/zsh-symfony-completion) on Github and bring life to your command line!
 
 # Backstory: How & Why
 
