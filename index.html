@@ -5,14 +5,24 @@ layout: default
 <section class="container pt-1">
     <ul>
         {% for post in site.posts %}
-            <li class="mb-5">
-                <div class="flex flex-between mb-1">
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="text-bold">{{ post.title }}</a>
+            <li class="mb-5 flex flex-between">
+                <div>
+                    <div class="flex-no-shrink mb-1 text-soft text-md">{{ post.date | date: "%B %-d, %Y" }}</div>
 
-                    <div class="flex-no-shrink ml-2 text-soft text-md sm-hide">{{ post.date | date: "%B %-d '%y" }}</div>
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="text-bold text-lg">{{ post.title }}</a>
                 </div>
 
-                <div class="text-soft text-md text-line-md text-indent sm-text-justify">{{ post.excerpt }}</div>
+                <div class="text-md text-soft">
+                    {% assign words = post.content | number_of_words %}
+
+                    about
+
+                    {% if words < 200 %}
+                        1 minute
+                    {% else %}
+                        {{ words | divided_by:100 }} minutes
+                    {% endif %}
+                </div>
             </li>
         {% endfor %}
     </ul>
