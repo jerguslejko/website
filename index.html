@@ -12,12 +12,10 @@ layout: default
                      <div class="text-md text-soft">
                         {% assign words = post.content | number_of_words %}
 
-                        about
-
                         {% if words < 200 %}
-                            1 minute
+                            ~1 min
                         {% else %}
-                            {{ words | divided_by:100 }} minutes
+                            ~{{ words | divided_by:100 }} mins
                         {% endif %}
                     </div>
                 </div>
