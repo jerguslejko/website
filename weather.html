@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Project Kate</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="app" class="container" style="padding-top: 60px">
+        <div class="panel panel-default">
+            <div class="panel-heading">Current readings</div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th class="text-right">Temp (min)</th>
+                        <th class="text-right">Temp (max)</th>
+                        <th class="text-right">Precipitation</th>
+                        <th class="text-right">Humidity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="city in cities">
+                        <td>{{ city.name }}</td>
+                        <td class="text-right">{{ city.main.temp_min }}°C</td>
+                        <td class="text-right">{{ city.main.temp_max }}°C</td>
+                        <td class="text-right">{{ city.precipitation ? city.precipitation.value : 'N/A' }}</td>
+                        <td class="text-right">{{ city.main.humidity }}%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+
+            data: {
+                ids: [2636790,2657832,2644688,2641181,2652221,2654710,2634096,2644210,2636432,2655984],
+                cities: [],
+            },
+
+            mounted() {
+                this.fetch().then(cities => this.cities = cities);
+            },
+
+            methods: {
+                fetch() {
+                    return axios.get(this.url(this.ids)).then(r => r.data.list);
+                },
+
+                url(ids) {
+                    return 'https://api.openweathermap.org/data/2.5/group?id=' + ids.join(',') + '&units=metric&appid=51221b6567ec99478dec0216aaef8410';
+                }
+            }
+        })
+    </script>
+</body>
+</html>
