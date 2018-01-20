@@ -7,7 +7,7 @@ I am presenting you with my own Oh My Zsh plugin that brings command line autoco
 
 Follow [the instructions](https://github.com/jerguslejko/zsh-symfony-completion) on Github and bring life to your command line!
 
-# Backstory: How & Why
+## Backstory: How & Why
 
 I am a huge fan of [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) and a huge fan of Laravel. When I switched to Oh My Zsh, I have immediately fallen in love with "autocompletion plugins" for various tools such as `git` or `brew`. However, I was missing this functionality in tools I was using on daily basis: `artisan` and `composer`.
 

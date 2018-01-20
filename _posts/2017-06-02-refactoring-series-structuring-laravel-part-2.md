@@ -35,7 +35,7 @@ app
 
 The goal of this tutorial, is to move "the code I do not want" to `App\Support` namespace. The rationale behind this is included in the previous post.
 
-# 1. Moving Providers directory
+## 1. Moving Providers directory
 
 1. move the folder (and its contents) from `app/Providers` to `app/Support/Providers`
 1. change namespace in every provider from `App\Providers` to `App\Support\Providers`
@@ -70,7 +70,7 @@ app
 └── User.php
 ```
 
-# 2. Moving `Console\Kernel`, `Http\Kernel` and `Exceptions\Handler`
+## 2. Moving `Console\Kernel`, `Http\Kernel` and `Exceptions\Handler`
 
 As mentioned above, all framework-related classes need to be registered, so Laravel knows where to look for them. These three _"core"_ classes are registered in the `bootstrap/app.php` file. If you open this file and scroll down a bit, you will see this piece of code:
 
@@ -134,7 +134,7 @@ app
 
 Neat, right?
 
-# 3. Moving the rest
+## 3. Moving the rest
 
 We are almost done at this point. If it was me, I would also move `App\Http\Controllers\Controller` to `App\Support\Http\Controller`. I like to keep the _"BaseClasses"_ inside the `Support` directory as well.
 
