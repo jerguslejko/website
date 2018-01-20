@@ -2,14 +2,19 @@
 <html lang="en">
     <head>
         {% include head.html %}
+
+        <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body>
-        {% include header.html %}
+        <div class="bg-default p-1">
+            {% include header.html %}
 
-        <main class="mb-5">
-            {{ content }}
-        </main>
+            <main class="mb-3">
+                {{ content }}
+            </main>
 
-        {% include footer.html %}
+            {% include footer.html %}
+        </div>
     </body>
 </html>
