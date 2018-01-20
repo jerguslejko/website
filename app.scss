@@ -13,6 +13,12 @@ $background: #f3f3f3;
 @import 'syntax';
 @import 'timeline';
 
+html, body {
+    height: 100%;
+}
+
+.wrapper { min-height: 100% }
+
 body {
     font-size: 16px;
     line-height: 20px;
