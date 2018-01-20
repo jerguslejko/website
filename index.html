@@ -20,7 +20,9 @@ layout: default
                     </div>
                 </div>
 
-                <a href="{{ post.url | prepend: site.baseurl }}" class="text-bold text-lg">{{ post.title }}</a>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h2>{{ post.title }}</h2>
+                </a>
             </li>
         {% endfor %}
     </ul>
