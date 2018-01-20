@@ -13,12 +13,6 @@ $background: #f3f3f3;
 @import 'syntax';
 @import 'timeline';
 
-a {
-    text-decoration: none;
-
-    &:hover { text-decoration: underline }
-}
-
 body {
     font-size: 16px;
     line-height: 20px;
@@ -42,10 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 2em }
 h2 { font-size: 1.4em }
 h3 { font-size: 1.3em }
-
-a {
-    color: inherit;
-}
 
 article {
     h2 { margin: 1.5em 0 1em 0 }
