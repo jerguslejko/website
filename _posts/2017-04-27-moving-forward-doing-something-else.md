@@ -9,14 +9,11 @@ My name is **Jerguš**. I'm a student doing Computer Science course at **Univers
 
 ## I want to blog. Why?
 
-### I have recently quit my job.
-It no longer was something I'd enjoy. Interesting problems and new challenges turned into old, boring, repetitive tasks of _"moving the button to the right. Just a little bit"_.
+**I have recently quit my job.** It no longer was something I'd enjoy. Interesting problems and new challenges turned into old, boring, repetitive tasks of _"moving the button to the right. Just a little bit"_.
 
-### My friends stayed at home.
-When I was in high school, I could talk to my friends about dev stuff every day, but after moving to England, we do not communicate as much. Therefore I have **YOU**, my (new) dearest friends. I'll tell you what I learned, how I liked it and why I'll never use it again.
+**My friends stayed at home.** When I was in high school, I could talk to my friends about dev stuff every day, but after moving to England, we do not communicate as much. Therefore I have **YOU**, my (new) dearest friends. I'll tell you what I learned, how I liked it and why I'll never use it again.
 
-### Someone might find it useful.
-I love to share. I love to teach. I love to learn.
+**Someone might find it useful.** I love to share. I love to teach. I love to learn.
 
 ## The content
 

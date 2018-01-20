@@ -9,8 +9,6 @@ layout: post
 
 **Scene:** Laravel app that serves as an API for an Angular frontend.
 
----
-
 # The issue
 The app has around 20 resources (entities/models) and it needs to provide CRUD endpoints for every one of them. While most of the resources support all four of these actions, some do not need the `index()` method. Their content is nested in another resource.
 
@@ -156,6 +154,6 @@ class CompaniesController extend Controller
 }
 ```
 
-# Yay!
+## Yay!
 
 I'm pretty satisfied with the result. It's simple, flexible and I actually think the `use` statement looks cool ✌️

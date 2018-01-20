@@ -29,7 +29,7 @@ $factory->define(App\Order::class, function (Faker\Generator $faker) {
 
 Take a look at `'agent_id'` and `'customer_id'` bits. They are almost identical. It first tries to fetch an existing model. If it cannot find one, it uses `factory()` helper to create a new instance. While this solution is alright, in the app, there are 20-30 places where I had to write out this closure.
 
-# Idea
+## Idea
 
 I like the idea of _Programming by Wishful Thinking_. So I tried to design an API I would like. Here is what I came up with:
 
@@ -45,7 +45,7 @@ I like the idea of _Programming by Wishful Thinking_. So I tried to design an AP
 'customer_id' => factory(App\Customer::class)->firstOrCreate(),
 ```
 
-# Solution
+## Solution
 
 Since extending `Illuminate\Database\Eloquent\FactoryBuilder` is not an option, I realized I could make use of Laravel's `Macroable` trait. However, this class did not import the trait at the time.
 
@@ -53,7 +53,7 @@ Out of luck? Not really.
 
 I went ahead and submitted [this PR](https://github.com/laravel/framework/pull/19425). It was accepted the same day and I was just waiting for the next release.
 
-# Result
+## Result
 
 The implementation of this "feature" is super simple. In a service provider, I now register this macro:
 
