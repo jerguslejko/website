@@ -5,11 +5,11 @@ layout: post
 
 Here is a quick tip for you.
 
-Have you ever tried using your shell aliases in combination with the `sudo` command? Yeah, does not work. The reason being that `sudo` simulates root's environment and since shell aliases are local to the user, they are not available when using `sudo`.
+Have you ever tried using your shell aliases in combination with the `sudo` command? Yeah, does not work. The reason being that shell aliases are a simple 'text substitution' mechanism and by default, only the first word in a command is checked to see if it has an alias. However, if the last character of an alias is a space, the following word is also checked for alias expansion.
 
 ## The Trick
 
-The way to work around this issue is to use a very neat trick. You need to alias the `sudo` command to `sudo ` (that's `sudo` + `<space>`).
+In order to use your aliases when using `sudo`, you need to create an alias for the `sudo` command itself. Aliasing it to `sudo ` (that's `sudo` + `<space>`) will force the following word to be evaluated as an alias as well.
 
 ```shell
 alias sudo="sudo "
@@ -34,5 +34,7 @@ $ sudo show-logs
 .
 .
 ```
+
+More detailed description of how alias expansion works can be found in the [Bash Reference Manual](http://www.gnu.org/software/bash/manual/bashref.html#Aliases).
 
 Neat, right? That's it. Bye bye 👋
