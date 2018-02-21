@@ -341,3 +341,6 @@ pre {
         background-color: transparent;
     }
 }
+
+/** Custom bits **/
+.language-bash.highlighter-rouge pre:before { content: '$' }
