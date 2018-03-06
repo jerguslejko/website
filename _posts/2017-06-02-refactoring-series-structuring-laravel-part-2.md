@@ -8,6 +8,7 @@ Hey! The second part of this article is a step-by-step tutorial on how to organi
 All framework-related classes in the `app` folder have to be registered in the framework. Controllers are registered in the routes file, middlewares are registered in `App\Http\Kernel`, console commands are in `App\Console\Kernel` and providers are registered in the `config/app.php` file. This post covers how to move individual files and update the reference.
 
 OK, when you install a new Laravel project, the `app` folder looks like this:
+
 ```
 app
 ├── Console
@@ -44,6 +45,7 @@ The goal of this tutorial, is to move "the code I do not want" to `App\Support` 
 That's it. As the `app` folder follows PSR-4 autoloading standard, moving files and updating namespaces is all you need to do.
 
 The `app` folder now looks like this:
+
 ```
 app
 ├── Console

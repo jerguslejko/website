@@ -65,7 +65,7 @@ curl --silent --show-error https://getcomposer.org/installer | php -- --install-
 apt install -y mysql-server
 mysql_secure_installation
 
-# nodejs  + yarn
+# nodejs + yarn
 
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" > /etc/apt/sources.list.d/yarn.list
@@ -92,7 +92,6 @@ https://www.colinodell.com/blog/201711/installing-php-72
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
 https://certbot.eff.org/all-instructions/#ubuntu-16-04-xenial-nginx
 
-
 ## Notes
 
 * setup the **deploy** user
@@ -106,4 +105,5 @@ https://certbot.eff.org/all-instructions/#ubuntu-16-04-xenial-nginx
 * install fail2ban, ufw
 
 ---
+
 As I change my setup or discover a new shiny thing every single of my server must have, I will update this article.

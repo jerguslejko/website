@@ -16,7 +16,7 @@ Turns out, the `fetch()` API does not attach cookies to the request by default. 
 ```js
 fetch(url, {
     credentials: 'same-origin',
-})
+});
 ```
 
 Now, the request will contain the necessary cookies and the Laravel authentication system will be able to identify the user. 🎉

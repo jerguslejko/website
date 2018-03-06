@@ -9,7 +9,7 @@ Have you ever tried using your shell aliases in combination with the `sudo` comm
 
 ## The Trick
 
-In order to use your aliases when using `sudo`, you need to create an alias for the `sudo` command itself. Aliasing it to `sudo ` (that's `sudo` + `<space>`) will force the following word to be evaluated as an alias as well.
+In order to use your aliases when using `sudo`, you need to create an alias for the `sudo` command itself. Aliasing it to `sudo` (that's `sudo` + `<space>`) will force the following word to be evaluated as an alias as well.
 
 ```shell
 alias sudo="sudo "

@@ -10,6 +10,7 @@ layout: post
 **Scene:** Laravel app that serves as an API for an Angular frontend.
 
 # The issue
+
 The app has around 20 resources (entities/models) and it needs to provide CRUD endpoints for every one of them. While most of the resources support all four of these actions, some do not need the `index()` method. Their content is nested in another resource.
 
 The controllers in this app are fairly simple as they just get the data from a repository and pass into an appropriate transformer. This allows me to extract the methods to a parent class.
@@ -19,7 +20,6 @@ I'll provide examples for `CompaniesController` and its implementation using eac
 ## First solution: Abstract ~~ApiController~~ ~~CrudController~~ BaseController
 
 This approach is very simple and I'd say that you are most likely to see this pattern in any Laravel API project.
-
 
 ```php
 <?php

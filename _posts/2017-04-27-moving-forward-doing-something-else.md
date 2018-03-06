@@ -19,6 +19,6 @@ My name is **Jerguš**. I'm a student doing Computer Science course at **Univers
 
 I don't want to make any promises about the content or about the frequency of new posts. I'll write about things that excite me at that moment. However, I'm certain that these topics will eventually appear: laravel, php, git, angular, zsh/bash/cli, refactoring, mac apps...
 
-__Posts are not guaranteed to always make sense.__
+**Posts are not guaranteed to always make sense.**
 
 Stay tuned.
