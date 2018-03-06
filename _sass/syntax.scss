@@ -312,7 +312,8 @@
     // Literal.Number.Integer.Long
 }
 
-code, pre {
+code,
+pre {
     font-family: Consolas, Courier, monospace;
 }
 
@@ -344,4 +345,6 @@ pre {
 }
 
 /** Custom bits **/
-.language-bash.highlighter-rouge pre:before { content: '$' }
+.language-bash.highlighter-rouge pre:before {
+    content: '$';
+}

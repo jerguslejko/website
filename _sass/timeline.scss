@@ -2,7 +2,9 @@
     position: relative;
 
     @media screen and (max-width: 680px) {
-        .date { display: none }
+        .date {
+            display: none;
+        }
 
         &::after {
             left: 10px !important;
@@ -12,7 +14,9 @@
             li {
                 flex-direction: row !important;
 
-                .icon { padding: 0 !important }
+                .icon {
+                    padding: 0 !important;
+                }
 
                 .event {
                     width: calc(100% - 30px) !important;
@@ -23,7 +27,7 @@
     }
 
     &::after {
-        content: "";
+        content: '';
         position: absolute;
         width: 1px;
         height: 100%;
@@ -64,7 +68,8 @@
                 background: $background;
             }
 
-            .date, .event {
+            .date,
+            .event {
                 width: calc(50% - 15px);
             }
         }
