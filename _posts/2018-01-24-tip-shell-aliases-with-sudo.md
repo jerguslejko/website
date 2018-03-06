@@ -11,13 +11,13 @@ Have you ever tried using your shell aliases in combination with the `sudo` comm
 
 In order to use your aliases when using `sudo`, you need to create an alias for the `sudo` command itself. Aliasing it to `sudo` (that's `sudo` + `<space>`) will force the following word to be evaluated as an alias as well.
 
-```shell
+```bash
 alias sudo="sudo "
 ```
 
 ## Example
 
-```bash
+```shell
 $ alias show-logs="cat /var/log/nginx/access.log"
 
 $ show-logs
