@@ -14,7 +14,7 @@ $background: #f3f3f3;
 @import 'timeline';
 
 html, body {
-    min-height: 100%;
+    height: 100%;
 }
 
 .wrapper { min-height: 100% }
@@ -91,6 +91,7 @@ article {
 .text-line-sm { line-height: 1.6em }
 
 .flex { display: flex }
+.flex-col { flex-direction: column }
 .flex-1 { flex: 1 }
 .flex-center { justify-content: center; align-items: center }
 .flex-between { justify-content: space-between }
