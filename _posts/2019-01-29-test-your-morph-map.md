@@ -9,7 +9,7 @@ First of all, I need to say that I am a sucker for moving files and classes arou
 
 If you have ever used Laravel's [morph map](https://laravel.com/docs/5.7/eloquent-relationships#custom-polymorphic-types) feature, you might know that it's _really_ easy to forget to update the morph map once you move a model to a different namespace.
 
-For reference, what I mean when I talk about **"morph map"**, I'm referring to the mapping between a model class name and a string, which represents the model on the database level.
+For reference, what I mean when I'm talking about **"morph map"**, I'm referring to the mapping between a model class name and a string, which represents the model on the database level.
 
 ```php
 public function boot()
@@ -67,7 +67,7 @@ class MorphMapTest extends UnitTestCase
 
 ## How does this work?
 
-The test first gets a collection of models which live in the `/app` folder. Then it gets the morph map using `Illuminate\Database\Eloquent\Relations\Relation::morphMap()` call and coverts it into a collection.
+The test gets a collection of models which live in the `/app` folder. Then it gets the morph map using `Illuminate\Database\Eloquent\Relations\Relation::morphMap()` call and coverts it into a collection.
 
 Finally it compares the two collections and asserts that both diffs are empty. `$model->diff($map)` contains entries which are missing from the morph map. The inverse, `$map->diff($models)`, contains entries which are present in the morph map but point to a model which does not exist.
 
