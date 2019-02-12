@@ -20,27 +20,25 @@ How does it work:
       ....
     }
     ```
-    
 1. for unsupported types, use [phpDocumentor](https://www.phpdoc.org)
-  ```php
-  /**
-   * @param string[] $xs
-   *
-   * @return int|\DateTime
-   */
-  function foo($xs)
-  {
-    ...
-  }
-  ```
-  
+    ```php
+    /**
+     * @param string[] $xs
+     *
+     * @return int|\DateTime
+     */
+     function foo($xs)
+     {
+         ...
+     }
+     ```  
 1. **(?)** for types which are not supported by [phpDocumentor](https://www.phpdoc.org), extend the [phpDocumentor](https://www.phpdoc.org) syntax
-  ```php
-  /**
-   * @return [int, string] Pseudo tuple type
-   */
-  function foo()
-  {
-    ...
-  }
-  ```
+     ```php
+     /**
+      * @return [int, string] Pseudo tuple type
+      */
+      function foo()
+      {
+          ...
+      }
+      ```
