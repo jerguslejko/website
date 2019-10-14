@@ -4,42 +4,42 @@
         "icon": "🌀",
         "event": "right now?",
         "slug": "now",
-        "description": "I'm busy studying at Univeristy of Bristol and working in ContracTool. Still doing it, still liking it."
+        "description": "I'm busy studying at Univeristy of Bristol and working for ContracTool. 🤓"
     },
     {
         "date": "November 2017",
         "icon": "📄",
         "event": "ContracTool",
         "slug": "contractool-2017",
-        "description": "Late in 2017, I have joined the ContracTool team [contractool.com]! The marketing quote is 'Intelligent contracting solution', my quote would be 'Cool project built on Laravel and Angular'."
+        "description": "Late in 2017, I joined ContracTool [contractool.com]!"
     },
     {
         "date": "September 2017",
         "icon": "🎓",
         "event": "University of Bristol",
         "slug": "bristol-2017",
-        "description": "I am doing Computer Science course at University of Bristol. I am proud to be a part of this prestigious community."
+        "description": "I am doing a Computer Science degree at University of Bristol."
     },
     {
         "date": "May 2017",
         "icon": "💻",
         "event": "tmforum | {open}:hack Nice",
         "slug": "open-hack-nice-2017",
-        "description": "As a member of Southampton Solent University team, I have attended <i>TM Forum Open Hack Nice 2017</i>. I am proud to say that my team won <strong>the first place</strong>. We presented an idea and a prototype of an IOT project called Smart Ports."
+        "description": "As a member of Southampton Solent University team, I have attended <i>TM Forum Open Hack Nice 2017</i>. I am proud to say that my team won <strong>the first place</strong> with a prototype of an IOT project called for monitoring air polution in docks."
     },
     {
         "date": "January 2017",
         "icon": "👔",
         "event": "Code Fire Ltd",
         "slug": "code-fire-2017",
-        "description": "Few months after I joind Southampton Solent University, I became a part of the Code Fire team. I was working as an AngularJS developer on an application for Merchant Navy Welfare Board in Southampton."
+        "description": "Few months after I joind Southampton Solent University, I joined the Code Fire team. I was working as an AngularJS developer on an application for Merchant Navy Welfare Board in Southampton."
     },
     {
         "date": "December 2016",
         "icon": "🏆",
         "event": "EuroSkills 2016",
         "slug": "euroskills-2016",
-        "description": "Attending EuroSkills competition in Sweden was a really wonderful experience. Winning the <strong>second</strong> place in the web development category was even better. I am very proud of this achievement."
+        "description": "Attending EuroSkills competition in Sweden was a wonderful experience. Winning the <strong>second</strong> place in the web development category was even better. I am very proud of this achievement."
     },
     {
         "date": "September 2016",
